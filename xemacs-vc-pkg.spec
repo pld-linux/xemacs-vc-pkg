@@ -3,9 +3,10 @@ Summary(pl):	Version Control dla wolnodostêpnych systemów
 Name:		xemacs-vc-pkg
 %define 	srcname	vc
 Version:	1.28
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
+Group(de):	Applikationen/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
 URL:		http://www.xemacs.org/
@@ -18,12 +19,11 @@ Requires:	/usr/lib/sendmail
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Version Control systems presently include support for
-SCCS, RCS, and CVS.
+Version Control systems presently include support for SCCS, RCS, and
+CVS.
 
 %description -l pl 
-Version Control system obecnie zawiera wsparcie dla SCCS, RCS
-i CVS.
+Version Control system obecnie zawiera wsparcie dla SCCS, RCS i CVS.
 
 %prep
 %setup -q -c
