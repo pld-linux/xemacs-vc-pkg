@@ -2,8 +2,8 @@ Summary:	Version Control for Free systems
 Summary(pl):	Version Control dla wolnodostêpnych systemów
 Name:		xemacs-vc-pkg
 %define 	srcname	vc
-Version:	1.28
-Release:	2
+Version:	1.30
+Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Group(de):	Applikationen/Editors/Emacs
