@@ -1,5 +1,5 @@
 Summary:	Version Control for Free systems
-Summary(pl):	Version Control for Free systems
+Summary(pl):	Version Control dla wolnodostêpnych systemów
 Name:		xemacs-vc-pkg
 %define 	srcname	vc
 Version:	1.26
@@ -14,11 +14,16 @@ Conflicts:	xemacs-sumo
 Requires:	xemacs
 Requires:	xemacs-dired-pkg
 Requires:	xemacs-base-pkg
+Requires:	/usr/lib/sendmail
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Version Control systems presently include support for
+SCCS, RCS, and CVS.
 
 %description -l pl 
+Version Control system obecnie zawiera wsparcie dla SCCS, RCS
+i CVS.
 
 %prep
 %setup -q -c
