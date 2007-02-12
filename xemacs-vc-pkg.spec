@@ -1,5 +1,5 @@
 Summary:	Version Control for Free systems
-Summary(pl):	Version Control dla wolnodostêpnych systemów
+Summary(pl.UTF-8):   Version Control dla wolnodostÄ™pnych systemÃ³w
 Name:		xemacs-vc-pkg
 %define 	srcname	vc
 Version:	1.38
@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Version Control systems presently include support for SCCS, RCS, and
 CVS.
 
-%description -l pl
+%description -l pl.UTF-8
 Version Control system obecnie zawiera wsparcie dla SCCS, RCS i CVS.
 
 %prep
