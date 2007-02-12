@@ -1,5 +1,5 @@
 Summary:	Version Control for Free systems
-Summary(pl.UTF-8):   Version Control dla wolnodostępnych systemów
+Summary(pl.UTF-8):	Version Control dla wolnodostępnych systemów
 Name:		xemacs-vc-pkg
 %define 	srcname	vc
 Version:	1.38
