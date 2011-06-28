@@ -2,12 +2,12 @@ Summary:	Version Control for Free systems
 Summary(pl.UTF-8):	Version Control dla wolnodostępnych systemów
 Name:		xemacs-vc-pkg
 %define 	srcname	vc
-Version:	1.38
+Version:	1.48
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
 Source0:	http://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-# Source0-md5:	b19fa9b253ec9335829c3289ea1b046b
+# Source0-md5:	81aec99f243a981e1659883c6e78afd2
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
